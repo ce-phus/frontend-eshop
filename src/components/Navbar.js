@@ -43,7 +43,7 @@ const Navbar = () => {
         setIsOpen(!isOpen)
     }
   return (
-    <header className='w-full px-32 py-8 flex items-center justify-between text-light relative z-10 lg:px-16 md:px-12 sm:px-8'>
+    <header className='w-full px-32 py-8 flex items-center justify-between text-light relative z-10 lg:px-16 md:px-12 sm:px-8 bg-gradient-to-r from-indigo-500'>
         <Image src={logo} alt='farmhouse' className='w-[100px] h-[90px] rounded-full bg-dark' />
         <button className='flex-col  items-center justify-center hidden lg:flex' onClick={handleClick}>
       <span className={`bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm  ${isOpen ? 'rotate-45 translate-y-1':'-translate-y-0.5'}`}></span>

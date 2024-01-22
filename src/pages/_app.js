@@ -4,6 +4,7 @@ import Head from 'next/head'
 import { useRouter } from 'next/router'
 import Navbar from '../components/Navbar'
 
+
 const montserrat = Montserrat({
   subsets: ['latin'],
   variable: '--font-mont'

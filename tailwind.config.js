@@ -21,7 +21,10 @@ module.exports = {
          primary: "#ee7600", // 240,86,199
          primaryDark: "#FFA500", // 80,230,217
          accent: '#ee7600',
-       }
+       },
+       backgroundImage: {
+        "hero-pattern": "url('../../public/images/gallery/herobg.png')",
+      },
      },
      screens: {
        "2xl": { max: "1535px" },
