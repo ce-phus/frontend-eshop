@@ -20,7 +20,7 @@ module.exports = {
          light: "#f5f5f5",
          primary: "#ee7600", // 240,86,199
          primaryDark: "#FFA500", // 80,230,217
-         accent: '#ee7600',
+         accent: '#5d0076',
        },
        backgroundImage: {
         "hero-pattern": "url('../../public/images/gallery/herobg.png')",
